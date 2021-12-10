@@ -1,3 +1,6 @@
+#this script is meant for me to try out some natural language processing and see if i could put it to use with the virtual assistant
+#in other words, if this looks like spaghetti code thrown together on a whim, it is.
+#also hi, welcome to my code :) i think its super nifty haha
 import nltk
 import urllib.request
 from bs4 import BeautifulSoup
@@ -33,4 +36,4 @@ freq = nltk.FreqDist(clean_tokens)
 
 freq.plot(30,cumulative = False)
 
-fn.speak("deez nuts")
+fn.speak("i hope you enjoyed that lol")
